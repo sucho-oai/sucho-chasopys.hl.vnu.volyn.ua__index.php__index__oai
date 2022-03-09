@@ -20,8 +20,8 @@ This project has 4 parts:
  * 1: Archive as many Ukrainian OAI-PMH servers as possible and make the source OAI data avilable publically in Git
  * 2: Provide a single xml file per metadataPrefix/format per repository via our CDN for easy viewing/downloading of a full repository
  * 3: Use SUCHOs OAI file downloader scripts to harvest as many of the item files (PDFs etc..) that are linked in the OAI data
-  * Publish the item files publically to an S3/B2 bucket and via the CDN
-  * Publish the item files directly to the Internet ARchive or SUCHO - whichever is appropriate
+  * 3a: Publish the item files publically to an S3/B2 bucket and via the CDN
+  * 3b: Publish the item files directly to the Internet ARchive or SUCHO - whichever is appropriate
  * 4: Transform and publish this data and files back to SUCHO in a format best suited to their processes
 
 Parts 1 and 2 are currently in progress
@@ -70,4 +70,4 @@ Formats/metadataPrefixes harvested: oai_dc, oai_marc, marcxml, marc, mods,mets
 * https://cdn.biblio.ai/file/sucho-oai/sucho-chasopys.hl.vnu.volyn.ua__index.php__index__oai/mets.xml
 
 
-**Note: If the above xmls files are blank it means that the harvested repository was not publishing in this metadata format. If this repository is blank except for the READMET - it means that the OAI-PMH server has not been fully harvested yet or in unable to be harvested**
+**Note: If the above xmls files are blank, it means that the harvested repository was not publishing in this metadata format. If this repository is blank except for the README,- it means that the OAI-PMH server has not been fully harvested yet or isn unable to be harvested**
